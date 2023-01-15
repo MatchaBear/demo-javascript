@@ -4,13 +4,13 @@ const grassHeight = prompt(
 
 const scissor = [{ size: "small" }, { size: "medium" }, { size: "big" }];
 
-if (grassHeight > 1 && grassHeight <= 10) {
+if (grassHeight > 0 && grassHeight <= 10) {
   useScissor = scissor[0].size;
   console.log(`You can cut the grass with ${useScissor} scissor`);
-} else if (grassHeight <= 50) {
+} else if (grassHeight > 0 && grassHeight <= 50) {
   useScissor = scissor[1].size;
   console.log(`You can cut the grass with ${useScissor} scissor`);
-} else if (grassHeight <= 100) {
+} else if (grassHeight > 0 && grassHeight <= 100) {
   useScissor = scissor[2].size;
   console.log(`You can cut the grass with ${useScissor} scissor`);
 } else if (grassHeight > 100) {

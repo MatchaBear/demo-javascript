@@ -1,4 +1,3 @@
+# Demo JavaScript
 
-# demo-javascript
-
-demo js code at Catamyst bootcamp with mhaidarhanif
+Demo JS code at Catamyst bootcamp with M Haidar Hanif.
